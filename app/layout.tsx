@@ -9,8 +9,8 @@ const jetbrainsMono = JetBrains_Mono({subsets:['latin'],variable:'--font-mono'})
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Kanban Todo",
-  description: "Kanban board application",
+  title: "feedme",
+  description: "Next.js 16 + React 19 spec-driven development template with Claude Code workflow.",
 };
 
 export default function RootLayout({
