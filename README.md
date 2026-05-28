@@ -2,6 +2,14 @@
 
 Next.js 16 + React 19 프로젝트 템플릿
 
+## 프로젝트 개요
+
+Claude Code 기반 Spec-Driven Development 워크플로우를 적용한 Next.js 풀스택 템플릿입니다.
+
+- **Ideate → Specify → Sketch → Plan → Build → Compound** 6단계 워크플로우로 feature를 개발합니다.
+- 각 단계는 Claude Code 슬래시 커맨드(`/idea-refine`, `/write-spec` 등)로 진행하며, human review gate를 통과해야 다음 단계로 넘어갑니다.
+- ESLint 자동 수정, 워크트리 기반 격리 개발 등 품질 게이트가 hooks로 내장되어 있습니다.
+
 ## 기술 스택
 
 - **Framework**: Next.js 16 (App Router)
